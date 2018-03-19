@@ -1,0 +1,207 @@
+.head{
+
+}
+
+.head__main{
+  position: relative;
+  z-index: 3;
+
+  padding: 0 170px;
+  padding-top: 15px;
+  background: url("../../assets/img/head/bg.png") 0 0 no-repeat;
+  background-size: cover;
+  padding-bottom: 25px;
+
+}
+
+.head__logo{
+  position: relative;
+  z-index: 3;
+}
+
+.head__wrapper{
+  padding-top: 28px;
+  width: 415px;
+}
+
+.head__description{
+  position: relative;
+  z-index: 3;
+  text-align: center;
+  font-family: $OpenSans;
+  font-size: $mainFontSize;
+  color: #fff;
+  letter-spacing: 2px;
+
+  margin-top: 43px;
+}
+.head__dog{
+  z-index: 1;
+  position: absolute;
+  bottom: 0;
+  right: 165px;
+}
+.head__form{
+  position: relative;
+  z-index: 3;
+  margin-top: 57px;
+  display: flex;
+  justify-content: center;
+  position: relative;
+  a{
+    color: #fff;
+    text-decoration: none;
+  }
+
+}
+.head__form-input{
+  height: 29px;
+  width: 216px;
+  margin-right: 20px;
+  text-indent: 10px;
+  letter-spacing: 2px;
+
+
+}
+
+.head__file{
+  position: absolute;
+  letter-spacing: 2px;
+  font-family: $OpenSans;
+  top: 38px;
+  right: 281px;
+  font-size: $smallFontSize;
+}
+
+input{
+  letter-spacing: 2px;
+
+}
+
+textarea{
+  letter-spacing: 2px;
+  font-size: 16px;
+}
+
+.head_button{
+  padding: 5px 30px;
+  border-radius: 5px;
+  border: none;
+}
+
+button{
+  cursor: pointer;
+
+  &:focus {
+  outline: none;
+}
+}
+
+.modalDialog {
+ position: fixed;
+ font-family: Arial, Helvetica, sans-serif;
+ top: 0;
+ right: 0;
+ bottom: 0;
+ left: 0;
+ background: rgba(0,0,0,0.8);
+ z-index: 99999;
+ -webkit-transition: opacity 400ms ease-in;
+ -moz-transition: opacity 400ms ease-in;
+ transition: opacity 400ms ease-in;
+ display: none;
+ pointer-events: none;
+}
+
+.modalDialog:target {
+ display: block;
+ pointer-events: auto;
+}
+
+.modalDialog > div {
+ width: 300px;
+ position: relative;
+ margin: 10% auto;
+ padding: 5px 20px 13px 20px;
+ border-radius: 10px;
+ background: #fff;
+ 
+}
+
+.modalDialog:target {
+ display: block;
+ pointer-events: auto;
+}
+
+.modalDialog > div {
+ width: 300px;
+ position: relative;
+ margin: 10% auto;
+ padding: 5px 20px 13px 20px;
+ border-radius: 10px;
+ background: #fff;
+
+}
+
+.offer__form-pop{
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.offer__form-item-pop{
+  height: 37px;
+  margin-bottom: 10px;
+  width: 99%;
+}
+
+.offer__form-textarea-pop{
+  width: 98%;
+  height: 172px;
+  resize:  none;
+  text-indent: 10px;
+
+}
+
+.offer__form-item-pop{
+  text-indent: 10px;
+
+}
+.offer__form-top-pop{
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+.offer__button-pop{
+  margin-top: 16px;
+  border-radius: 5px;
+  font-size: $mainFontSize;
+  padding: 12px;
+  background: -moz-linear-gradient(#fff, #999);
+ background: -webkit-linear-gradient(#fff, #999);
+ background: -o-linear-gradient(#fff, #999);
+  border: 1px solid rgba(#000, 0.4);
+}
+
+.close {
+ background: #606061;
+ color: #FFFFFF;
+ line-height: 25px;
+ position: absolute;
+ right: -12px;
+ text-align: center;
+ top: -10px;
+ width: 24px;
+ text-decoration: none;
+ font-weight: bold;
+ -webkit-border-radius: 12px;
+ -moz-border-radius: 12px;
+ border-radius: 12px;
+ -moz-box-shadow: 1px 1px 3px #000;
+ -webkit-box-shadow: 1px 1px 3px #000;
+ box-shadow: 1px 1px 3px #000;
+}
+
+.close:hover { background: #00d9ff; }

@@ -1,0 +1,49 @@
+.feedback{
+  padding: 70px 85px 30px 85px;
+  display: flex;
+  background: url("../../assets/img/head/bg.png") 0 0 no-repeat;
+  background-size: cover;
+  justify-content: space-around;
+
+}
+.feedback__text{
+  color: #fff;
+  font-size: 19px;
+  font-family: $OpenSans;
+  font-weight: $font-bold;
+  letter-spacing: 2px;
+  letter-spacing: 2px;
+  
+
+}
+
+.feedback__form{
+  width: 310px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  }
+
+.feedback__form-item{
+  width: 100%;
+  height: 35px;
+  margin-bottom: 20px;
+  text-indent: 10px
+}
+
+.feedback__form-textarea{
+  margin-top: 0;
+  margin-bottom: 20px;
+  text-indent: 10px;
+  height: 100px;
+  width: 100%;
+  resize:  none;
+}
+
+.feedback__button{
+  border-radius: 5px;
+  height: 30px;
+  width: 146px;
+  border: none;
+}

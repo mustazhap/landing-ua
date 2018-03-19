@@ -1,0 +1,28 @@
+// main
+@import 'settings';
+
+html, body{
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  min-height: 100%;
+}
+
+@import "../../blocks/head/head";
+@import "../../blocks/header/header";
+@import "../../blocks/service/service";
+@import "../../blocks/offer/offer";
+@import "../../blocks/calculator/calculator";
+@import "../../blocks/employees/employees";
+@import "../../blocks/brands/brands";
+@import "../../blocks/advantages/advantages";
+@import "../../blocks/reviews/reviews";
+@import "../../blocks/slider/slider";
+@import "../../blocks/feedback/feedback";
+@import "../../blocks/footer/footer";
+
+
+
+
+
+@import "media";

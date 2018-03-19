@@ -1,0 +1,55 @@
+.offer{
+  padding: 40px 25px 66px 25px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: url("../../assets/img/head/bg.png") 0 0 no-repeat;
+  background-size: cover;
+
+}
+
+.offer__description{
+  font-family: $OpenSans;
+  font-size: $mainFontSize;
+  text-align: center;
+  color: #fff;
+  letter-spacing: 2px;
+  
+
+}
+
+.offer__form{
+  margin-top: 67px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.offer__form-item{
+  height: 37px;
+  width: 205px;
+  &:last-child{
+    margin-left: 27px;
+  }
+}
+
+.offer__form-textarea{
+  margin-top: 25px;
+  width: 99%;
+  height: 172px;
+  resize:  none;
+  text-indent: 10px;
+
+}
+
+.offer__form-item{
+  text-indent: 10px;
+
+}
+.offer__button{
+  margin-top: 26px;
+  border-radius: 5px;
+  font-size: $mainFontSize;
+  padding: 12px;
+  border: none;
+}

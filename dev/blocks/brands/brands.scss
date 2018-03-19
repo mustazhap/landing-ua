@@ -1,0 +1,16 @@
+.brands{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 30px 85px 70px 85px;
+
+}
+
+.brands__title{
+  margin-bottom: 35px;
+  font-family: $OpenSans;
+  letter-spacing: 2px;
+  
+  font-size: $bigFontSize;
+  font-weight: $font-bold;
+}

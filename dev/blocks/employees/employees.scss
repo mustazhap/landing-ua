@@ -1,0 +1,44 @@
+.employees{
+  width: 100wh;
+  display: flex;
+  padding: 40px 85px 70px 85px;
+  flex-direction: column;
+  background: url("../../assets/img/head/bg.png") 0 0 no-repeat;
+  background-size: cover;
+}
+
+.employees__title{
+  letter-spacing: 2px;
+  display: flex;
+  justify-content: center;
+  font-size: 21px;
+  font-family: $OpenSans;
+  font-weight: $font-bold; 
+  margin-bottom: 68px;
+  color: #fff;
+
+}
+
+.employees__items{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+
+}
+
+.employees__name{
+  font-family: $OpenSans;
+  font-size: 19px;
+  color: #fff;
+  margin-top: 15px;
+  margin-bottom: 25px;
+  letter-spacing: 2px;
+  
+
+}
+
+.employees__item{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
