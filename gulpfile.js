@@ -1,3 +1,6 @@
+// Спасибо за ваш выбор, специально для вас с комментариями 
+// Автор, исполнитель: mustazhap [telegram: @mustazhap]
+
 var gulp = require('gulp'), // Gilp
     watch = require('gulp-watch'), // Watcher
     prefixer = require('gulp-autoprefixer'), // Автопрефиксер
